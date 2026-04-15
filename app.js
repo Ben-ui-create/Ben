@@ -50,6 +50,8 @@ const server = http.createServer(async (req, res) => {
   }
 });
 
+console.log(1);
+
 server.listen(PORT, hostname, () => {
   console.log(`Server started on port ${PORT}`);
 });
